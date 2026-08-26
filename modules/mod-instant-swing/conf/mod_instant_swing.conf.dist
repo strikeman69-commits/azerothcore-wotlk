@@ -1,0 +1,14 @@
+#############################################
+# mod-instant-swing configuration
+#############################################
+
+# Convert on-next-swing abilities to instant cast.
+# Affected spells: Heroic Strike, Cleave (Warrior), Maul (Druid), Rune Strike (Death Knight).
+#
+# When enabled, these spells fire immediately on use (consuming a GCD) rather than
+# queuing to replace the next auto-attack. The swing timer continues uninterrupted,
+# so the spell fires in addition to — not instead of — normal auto-attacks.
+#
+# 1 = enabled (default)
+# 0 = disabled (vanilla WotLK behaviour)
+InstantSwing.Enable = 1
